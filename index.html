@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navayuga — Building the Godavari · Polavaram Project</title>
+  <meta name="description" content="Navayuga Engineering Company Ltd — head-works contractor for the Polavaram Multipurpose Irrigation Project on the Godavari. Scroll to watch a National Project rise: diaphragm wall, cofferdams, spillway, 48 radial gates, ECRF dam and a 960 MW powerhouse." />
+  <meta property="og:title" content="Navayuga — Building the Godavari" />
+  <meta property="og:description" content="Watch the Polavaram spillway rise phase-by-phase. A National Project on the Godavari, built by Navayuga Engineering." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#14171a" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231C1F22'/><path d='M8 24V10l6 8V10' stroke='%23FF6A13' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/><path d='M20 24V10h4' stroke='%2339C6FF' stroke-width='3' fill='none' stroke-linecap='round'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Navayuga Engineering Company Ltd",
+    "alternateName": "NECL",
+    "parentOrganization": { "@type": "Organization", "name": "Navayuga Group" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Hyderabad", "addressCountry": "IN" },
+    "knowsAbout": ["Dams", "Irrigation", "Spillways", "Ports", "Bridges", "Tunnels", "Highways"],
+    "subjectOf": {
+      "@type": "CreativeWork",
+      "name": "Polavaram Multipurpose Irrigation Project",
+      "about": "National Project on the Godavari River, Andhra Pradesh — spillway, spill channel and ECRF dam head-works"
+    }
+  }
+  </script>
+</head>
+<body data-quality="auto">
+
+  <!-- Fixed WebGL canvas layer -->
+  <div id="webgl" aria-hidden="true"></div>
+
+  <!-- Loader -->
+  <div id="loader" role="status" aria-label="Loading experience">
+    <div class="loader-inner">
+      <svg class="loader-mark" viewBox="0 0 120 120" width="88" height="88" aria-hidden="true">
+        <path class="ld" d="M20 96V28l32 48V28" fill="none"/>
+        <path class="ld ld2" d="M72 96V28h28" fill="none"/>
+        <path class="ld ld3" d="M20 106h80" fill="none"/>
+      </svg>
+      <div class="loader-pct mono"><span id="loader-num">0</span>%</div>
+      <div class="loader-tag">MOBILISING SITE</div>
+    </div>
+  </div>
+
+  <!-- Top chrome -->
+  <header id="site-header">
+    <a class="brand" href="#top" aria-label="Navayuga home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-word">NAVAYUGA</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#build">The Build</a>
+      <a href="#projects">Projects</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button id="skip-build" type="button" title="Skip to the finished dam">Skip to reveal ↓</button>
+  </header>
+
+  <!-- Construction progress bar -->
+  <div id="build-progress" aria-hidden="true">
+    <div class="bp-track"><div class="bp-fill" id="bp-fill"></div></div>
+    <div class="bp-label mono"><span id="bp-num">0</span>% CONSTRUCTED</div>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ S0 · HERO ============ -->
+    <section id="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <svg id="blueprint" viewBox="0 0 900 480" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <!-- spillway cross-section, self-drawing -->
+        <g class="bp-lines">
+          <path class="draw" d="M40 420 H860" />
+          <path class="draw d1" d="M120 420 V300 Q120 260 160 250 L300 230 Q380 220 430 260 Q480 300 560 330 L740 400 Q790 415 830 420" />
+          <path class="draw d2" d="M160 250 L160 160 Q160 140 180 140 L250 140 Q270 140 270 160 L270 226" />
+          <path class="draw d3" d="M330 90 A150 150 0 0 1 430 258" />
+          <path class="draw d4" d="M330 90 L215 195 M330 90 L262 232" />
+          <circle class="draw d4" cx="330" cy="90" r="10" />
+          <path class="draw d5" d="M40 330 H118 M40 344 H118 M40 358 H118" />
+          <path class="draw d6" d="M560 330 L560 420 M600 345 L600 420 M640 360 L640 420 M680 376 L680 420 M720 392 L720 420" />
+        </g>
+        <g class="bp-dims mono">
+          <path class="draw d5" d="M120 445 H430 M120 438 V452 M430 438 V452" />
+          <text x="255" y="468" text-anchor="middle">SPILLWAY BLOCK · TYP.</text>
+          <path class="draw d5" d="M885 420 V90 M878 420 H892 M878 90 H892" />
+          <text x="872" y="255" text-anchor="middle" transform="rotate(-90 872 255)">CREST +45.72</text>
+          <text x="330" y="60" text-anchor="middle">RADIAL GATE · R15000</text>
+          <text x="80" y="310" text-anchor="middle">U/S</text>
+        </g>
+      </svg>
+      <div class="hero-copy">
+        <p class="hero-kicker mono">NAVAYUGA ENGINEERING COMPANY LTD · EPC</p>
+        <h1 class="hero-title">
+          <span class="ht-line">BUILDING&nbsp;THE</span>
+          <span class="ht-line ht-accent">GODAVARI</span>
+        </h1>
+        <p class="hero-sub">Polavaram Multipurpose Irrigation Project · A National Project on the Godavari River, Andhra Pradesh</p>
+        <div class="hero-hint mono" aria-hidden="true">
+          <span class="hint-tick"></span> SCROLL TO CONSTRUCT
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ S1–S8 · THE BUILD (pinned) ============ -->
+    <section id="build" aria-label="The construction of Polavaram, phase by phase">
+      <div id="experience">
+        <!-- HUD: phase title -->
+        <div id="hud-phase" aria-live="polite">
+          <div class="phase-index mono" id="phase-index">01 / 08</div>
+          <h2 class="phase-title" id="phase-title">The Godavari</h2>
+          <p class="phase-copy" id="phase-copy"></p>
+        </div>
+        <!-- HUD: stat cards -->
+        <div id="hud-stats"></div>
+        <!-- HUD: milestone chips -->
+        <nav id="hud-chips" aria-label="Construction milestones"></nav>
+        <!-- crosshair cursor readout -->
+        <div id="crosshair" class="mono" aria-hidden="true">
+          <span id="ch-x">E 000000</span><span id="ch-z">N 000000</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reduced-motion / no-WebGL fallback gallery (also the crawlable stat layer) -->
+    <section id="fallback" aria-label="Construction phases of Polavaram">
+      <div class="wrap">
+        <p class="eyebrow mono">THE BUILD · PHASE BY PHASE</p>
+        <h2 class="sec-title">Polavaram, constructed</h2>
+        <p id="fallback-note">You’re viewing the motion-reduced version. <button id="play-3d" type="button">Play the 3D experience</button></p>
+        <ol id="fallback-phases"></ol>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="content-sec">
+      <div class="wrap">
+        <p class="eyebrow mono">ABOUT · NAVAYUGA GROUP</p>
+        <h2 class="sec-title">Nation-scale civil engineering,<br/>from Hyderabad to every river basin</h2>
+        <div class="about-cols">
+          <p>
+            Navayuga Engineering Company Ltd is the EPC flagship of the Hyderabad-based
+            <strong>Navayuga Group</strong>, founded by <strong data-verify>C.&nbsp;Visweswara&nbsp;Rao</strong>.
+            Part of the group that built the <strong>Krishnapatnam deep-water port</strong>, major river bridges,
+            national highways and tunnels across India.
+          </p>
+          <p>
+            At Polavaram, Navayuga is <strong>head-works contractor</strong> — spillway, spill channel,
+            earth-cum-rock-fill dam and associated structures — the components that command
+            <span data-stat="discharge">50</span>&nbsp;lakh cusecs of Godavari flood.
+          </p>
+        </div>
+        <ul class="fact-strip mono" id="fact-strip">
+          <li><b><span data-stat="gates.count">48</span></b> radial gates</li>
+          <li><b><span data-stat="power.mw">960</span></b> MW hydropower</li>
+          <li><b><span data-stat="storage.tmc">194</span></b> TMC gross storage</li>
+          <li><b><span data-stat="dwall.length">1.5</span></b> km diaphragm wall</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ OTHER PROJECTS ============ -->
+    <section id="projects" class="content-sec">
+      <div class="wrap">
+        <p class="eyebrow mono">PORTFOLIO · SELECTED WORKS</p>
+        <h2 class="sec-title">Beyond the Godavari</h2>
+        <div id="project-cards" class="cards"></div>
+      </div>
+    </section>
+
+    <!-- ============ CAPABILITIES ============ -->
+    <section id="capabilities" class="content-sec">
+      <div class="wrap">
+        <p class="eyebrow mono">CAPABILITIES</p>
+        <h2 class="sec-title">Heavy civil, end to end</h2>
+        <ul class="cap-list">
+          <li><span class="cap-no mono">01</span>Dams, spillways &amp; radial gates</li>
+          <li><span class="cap-no mono">02</span>Deep diaphragm walls &amp; foundations</li>
+          <li><span class="cap-no mono">03</span>Ports, breakwaters &amp; marine works</li>
+          <li><span class="cap-no mono">04</span>Long-span river bridges</li>
+          <li><span class="cap-no mono">05</span>Hydro &amp; transport tunnels</li>
+          <li><span class="cap-no mono">06</span>Highways &amp; expressways</li>
+          <li><span class="cap-no mono">07</span>Lift irrigation &amp; canal networks</li>
+          <li><span class="cap-no mono">08</span>Record-rate mass concrete</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ AWARDS & RECORDS ============ -->
+    <section id="awards" class="content-sec">
+      <div class="wrap">
+        <p class="eyebrow mono">AWARDS &amp; RECORDS</p>
+        <h2 class="sec-title">Built for the record books</h2>
+        <div class="awards-grid">
+          <article class="award">
+            <div class="award-num mono">№ 2</div>
+            <p>Spillway discharge capacity reported second only to China’s Three&nbsp;Gorges <span class="verify-flag" title="Verify against CBIP / PPA records">⟨verify⟩</span></p>
+          </article>
+          <article class="award">
+            <div class="award-num mono">REC</div>
+            <p>Reported record concrete-pouring rates on the Polavaram spillway <span class="verify-flag" title="Verify against CBIP / PPA records">⟨verify⟩</span></p>
+          </article>
+          <article class="award">
+            <div class="award-num mono">NAT’L</div>
+            <p>Polavaram is a designated <strong>National Project</strong> on the Godavari</p>
+          </article>
+          <article class="award">
+            <div class="award-num mono">DEEP</div>
+            <p>Riverbed diaphragm wall among the deepest of its kind ever built <span class="verify-flag" title="Verify against primary sources">⟨verify⟩</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CAREERS ============ -->
+    <section id="careers" class="content-sec">
+      <div class="wrap careers-wrap">
+        <div>
+          <p class="eyebrow mono">CAREERS</p>
+          <h2 class="sec-title">Build what a nation remembers</h2>
+          <p class="careers-copy">Sites across India need engineers who think in lakh-cusec terms — geotech, hydro-mechanical, heavy concrete, marine. If that’s you, we should talk.</p>
+        </div>
+        <a class="big-cta" href="mailto:careers@navayuga.example" data-verify>ENGINEERING ROLES →</a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="content-sec">
+      <div class="wrap">
+        <p class="eyebrow mono">CONTACT</p>
+        <h2 class="sec-title">Hyderabad HQ</h2>
+        <div class="contact-cols">
+          <address class="mono">
+            Navayuga Engineering Company Ltd<br/>
+            Hyderabad, Telangana, India <span class="verify-flag" title="Replace with the verified registered address">⟨verify address⟩</span>
+          </address>
+          <form id="enquiry" autocomplete="on">
+            <label>Name <input name="name" type="text" required /></label>
+            <label>Email <input name="email" type="email" required /></label>
+            <label>Message <textarea name="message" rows="4" required></textarea></label>
+            <button type="submit">SEND ENQUIRY</button>
+            <p class="form-note" id="form-note" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap foot-wrap">
+      <span class="mono">© 2026 NAVAYUGA ENGINEERING COMPANY LTD</span>
+      <span class="mono foot-note">All project figures pending primary-source verification — see README</span>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

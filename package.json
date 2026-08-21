@@ -1,0 +1,22 @@
+{
+  "name": "navayuga-godavari",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Navayuga: Building the Godavari — immersive scroll-driven Three.js experience of the Polavaram Multipurpose Irrigation Project",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.14",
+    "three": "^0.168.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.168.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.8"
+  }
+}
