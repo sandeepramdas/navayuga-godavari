@@ -106,22 +106,18 @@ body {
   padding: var(--s2) var(--s4);
   background: linear-gradient(rgba(20, 23, 26, 0.85), transparent);
 }
-.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
-.brand-mark {
-  width: 22px; height: 22px; border-radius: 4px;
-  background:
-    linear-gradient(135deg, var(--orange) 0 48%, transparent 48%),
-    linear-gradient(315deg, var(--cyan) 0 30%, transparent 30%),
-    var(--charcoal);
-  border: 1px solid rgba(244, 241, 236, 0.2);
+.brand { display: inline-flex; align-items: center; text-decoration: none; }
+.brand-logo {
+  display: block;
+  height: 42px;
+  width: auto;
+  background: var(--paper);
+  padding: 5px 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.brand-word {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 19px;
-  letter-spacing: 0.14em;
-  color: var(--paper);
-}
+.brand:hover .brand-logo { transform: translateY(-1px); }
 #site-header nav { margin-left: auto; display: flex; gap: var(--s3); }
 #site-header nav a {
   color: var(--paper-dim);
@@ -733,6 +729,7 @@ footer {
   .big-cta { justify-self: start; }
 }
 @media (max-width: 600px) {
+  .brand-logo { height: 34px; padding: 4px 8px; }
   .cards, .awards-grid { grid-template-columns: 1fr; }
   .fb-phase { grid-template-columns: 1fr; }
   .fb-stat { text-align: left; }
